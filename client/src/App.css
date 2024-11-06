@@ -1,0 +1,50 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  padding: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bbbbbb;
+  border-radius: 10px;
+}
+
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.ant-carousel .slick-dots li button {
+  background: violet;
+  opacity: 0.4;
+}
+
+.ant-carousel .slick-dots li.slick-active button {
+  opacity: 1;
+  background: #ff4ef6;
+}
+
+/* nex buttons */
+.ant-carousel .slick-next {
+  color: #ff4ef6;
+}
+
+/* prev buttons */
+.ant-carousel .slick-prev {
+  color: #ff4ef6;
+}
+
+.stroke-custom {
+  path {
+    stroke-width: 1.2px !important;
+  }
+}
